@@ -1,4 +1,4 @@
-package service;
+package libsvm.service;
 import libsvm.*;
 import java.io.*;
 import java.util.*;
@@ -148,7 +148,7 @@ public class svm_train {
 		param.gamma = 0;	// 1/num_features
 		param.coef0 = 0;
 		param.nu = 0.5;
-		param.cache_size = 100;
+		param.cache_size = 500;
 		param.C = 1;
 		param.eps = 1e-3;
 		param.p = 0.1;

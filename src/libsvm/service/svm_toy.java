@@ -1,4 +1,4 @@
-package service;
+package libsvm.service;
 import libsvm.*;
 import java.applet.*;
 import java.awt.*;
